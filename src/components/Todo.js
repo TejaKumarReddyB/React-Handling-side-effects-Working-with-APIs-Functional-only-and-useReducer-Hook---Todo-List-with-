@@ -9,7 +9,7 @@ const Todo = () => {
             <div class="todo-title" key={id}>{cur}</div>
             <button onClick={()=>dispatch({type:"delete"})}>del</button>
             </>
-        },
+        }
        
         </>
     )
